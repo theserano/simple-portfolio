@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoe's portfolio</title>
+    <link rel="icon" type="image/png" href="./images/storyboard-line.png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="cover"></div>
+    
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul class="navbar_list">
+            <li><a href="#about"><i class="fa-solid fa-user-large"></i> <p>About</p></a></li>
+            <li><a href="#seeMe"><i class="fa-solid fa-eye"></i> <p>See me</p></a></li>
+            <li><a href="#edu"><i class="fa-solid fa-book-open"></i> <p>Education</p></a></li>
+            <li><a href="#exp"><i class="fa-solid fa-briefcase"></i> <p>Experience</p></a></li>
+            <li><a href="#projects"><i class="fa-solid fa-bars-progress"></i> <p>Projects</p></a></li>
+            <li><a href="#skills"><i class="fa-solid fa-globe"></i> <p>Skills</p></a></li>
+        </ul>
+    </div>
+
+    <!-- header -->
+    <div class="header" id="about">
+        <div class="picture"></div>
+        <div class="know">
+            <h1>Zoe Serano</h1>
+            <p class="details">Software Engineer Intern dedicated to improving skills through hands-on learning and development work. Well-organize and collaborative team player with strong communication and analytical abilities.
+            </p>
+            <div class="contact">
+                <p>+2348081986855<i class="fa-solid fa-phone"></i></p>
+                <p>edwardserano@gmail.com<i class="fa-solid fa-envelope"></i> </p>
+                <p>linkedin.com/in/zoe-serano-017a90233<i class="fa-brands fa-linkedin"></i> </p>
+                <p>theserano<i class="fa-brands fa-github"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- see me -->
+    <div class="see" id="seeMe">
+
+        <h1>See Me</h1>
+        <div class="line"></div>
+        <article class="see_image1">
+            <video autoplay loop muted>
+                <source src="./images/video1.mp4">
+            </video>
+        </article>
+        <div class="see_flex">
+            <div class="see_image2"></div>
+            <div class="see_image3"></div>
+            <div class="see_image4"></div>
+            <div class="see_image5"></div>
+        </div>
+
+    </div>
+
+    <!-- Education -->
+    <div class="education" id="edu">
+        <h1>Education</h1>
+        <div class="line"></div>
+        <div class="main_edu">
+            <div class="main_edu_text">
+                <h1>Covenant University, Ogun State, Nigeria</h2>
+                    <p>Aug 2019 - Sep 2023</p>
+            </div>
+            <h3>Bachelor of Science, Computer Science.</h3>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="exp" id="exp">
+        <h1>Experience</h1>
+        <div class="line"></div>
+
+        <div class="main_exp">
+            <div class="exp_head">
+                <div class="exp_head1">
+                    <h1>Software Developer Intern</h3>
+                    <p>Mar 2022 - Aug 2022</p>
+                </div>
+                <div class="exp_head1">
+                    <h4>Technocrime Limited</h4>
+                    <p>Lagos, Nigeria</p>
+                </div>
+            </div>
+            <div class="exp_details">
+                <ul>
+                    <li>Developed various front-end web pages with Reactjs.</li>
+                    <li>Developed a REST API using Nodejs, Express and MongoDB for a Blog website </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="line"></div>
+
+        <div class="main_projects">
+
+            <div class="pro">
+                <div class="pro_image1"></div>
+                <div class="pro_text">
+                    <div>
+                        <h1>Spendsavvy</h1>
+                        <h4 style="font-weight: 300;">Skills: MongoDB, Express, Reactjs, Nodejs.</h4>
+                    </div>
+                    <p style="font-weight: 300; font-size: .8rem; margin-top: -.8rem; text-align: right;">May 2023 - July 2023</p>
+                    <ul>
+                        <li>Developed a full stack web application using MERN stack for analyzing bank statements and creating budgets.</li>
+                        <li>Integrated google OAuth for login with Passportjs.</li>
+                        <li>Visualized bank statement data with the use of Chartjs.</li>
+                    </ul>
+                    <button class="btn"><a href="https://github.com/theserano/spendsavvy"></a>See more</button>
+                </div>
+
+
+            </div>
+
+            <div class="pro pro1">
+                <div class="pro_image2"></div>
+                <div class="pro_text">
+                    <div>
+                        <h1>Foodpanda-clone</h1>
+                        <h4 style="font-weight: 300;">Skills: Reactjs, Bootstrap, Vite, Sass.</h4>
+                    </div>
+                    <p style="font-weight: 300; font-size: .8rem; margin-top: -.8rem; text-align: right;">July 2023</p>
+
+                    <ul>
+                        <li>Developed a front-end website clone of an e-commerce website.</li>
+                        <li>Implemented various animations to make more user-friendly.</li>
+                        <li>Developed to be responsive with all devices.</li>
+                    </ul>
+                    <button class="btn" style="align-self: flex-start;"><a href="https://github.com/theserano/foodpanda-clone"></a>See more</button>
+                </div>
+
+                
+            </div>
+            
+            <div class="pro">
+                <div class="pro_image3"></div>
+                <div class="pro_text">
+                    <div>
+                        <h1>Simple Notepad</h1>
+                        <h4 style="font-weight: 300;">Skills: HTML, CSS, JavaScript.</h4>
+                    </div>
+                    <p style="font-weight: 300; font-size: .8rem; margin-top: -.8rem; text-align: right;">Aprill 2022</p>
+
+                    <ul>
+                        <li>Designed a web-based notepad application that utilizes browser storage to securely preserve user-generated notes upon saving</li>
+                    </ul>
+                    <button class="btn"><a href="https://github.com/theserano/simple-notepad"></a>See more</button>
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <div class="pro_image4"></div>
+                <div class="pro_text">
+                    <div>
+                        <h1>Simple Quiz App</h1>
+                        <h4 style="font-weight: 300;">Skills: HTML, CSS, JavaScript, open trivia API.</h4>
+                    </div>
+                    <p style="font-weight: 300; font-size: .8rem; margin-top: -.8rem; text-align: right;">May 2022</p>
+
+                    <ul>
+                        <li>Developed a web-based quiz application with a user-friendly interface</li>
+                        <li>Utilized and establish connection with open trivia API to fetch a wide range of questions.</li>
+                    </ul>
+                    <button class="btn" style="align-self: flex-start;"><a href="https://github.com/theserano/simple-notepad"></a>See more</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="skills">
+        <h1>Skills</h1>
+        <div class="line"></div>
+
+        <div class="images">
+            <div class="image_card">
+                <div class="image1"></div>
+                <h1>Javascript</h1>
+            </div>
+            <div class="image_card">
+                <div class="image2"></div>
+                <h1>HTML</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="image_card">
+                <div class="image3"></div>
+                <h1>CSS</h1>
+            </div>
+            <div class="image_card">
+                <div class="image4"></div>
+                <h1>TYPESCRIPT</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="image_card">
+                <div class="image5"></div>
+                <h1>React</h1>
+            </div>
+            <div class="image_card">
+                <div class="image6"></div>
+                <h1>Nodejs</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="image_card">
+                <div class="image7"></div>
+                <h1>Express</h1>
+            </div>
+            <div class="image_card">
+                <div class="image8"></div>
+                <h1>Material UI</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="image_card">
+                <div class="image9"></div>
+                <h1>Tailwindcss</h1>
+            </div>
+            <div class="image_card">
+                <div class="image10"></div>
+                <h1>Bootstrap</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="image_card">
+                <div class="image11"></div>
+                <h1>Git</h1>
+            </div>
+            <div class="image_card">
+                <div class="image12"></div>
+                <h1>Sass</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="line"></div>
+        <h1 style="text-align: center; padding: 1rem 0rem;">Thank you</h1>
+    </footer>
+    
+
+</body>
+</html>
